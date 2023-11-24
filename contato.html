@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Assets/icone-para-pagina.ico" type="Assets/icone-para-pagina">
     <title>Contato</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -13,6 +14,7 @@
             <a class="cabecalho__menu__link" href="About.html">Sobre mim</a>
             <a class="cabecalho__menu__link" href="Habilidades.html">Habilidades</a>
             <a class="cabecalho__menu__link" href="contato.html">Contato</a>
+            <a class="cabecalho__menu__link" href="Projetos.html">Projetos</a>
         </nav>
     </header>
 
@@ -20,7 +22,7 @@
         <section class="apresentacao__conteudo">
 
         </section>
-        <img class="apresentacao__imagem" src="Assets/Design sem nome (5).png" alt="Esse é o Luiz">
+       
 
         <form class="form" action="https://formsubmit.co/luizfelipediasfernandes@gmail.com" method="POST">
             
@@ -34,9 +36,14 @@
             
             <label for="mensagem">Mensagem</label>
             <textarea name="message" id="textarea" placeholder="Sua mensagem..." cols="30" rows="10"></textarea>
-            <button type="Enviar">Enviar</button>
+
+            <input type="hidden" name="_next" value="https://127.0.0.1:5500//email-enviado.html">
+
+            <button type="submit">Enviar</button>
+
        </form>
 
+       <img class="apresentacao__imagem" src="Assets/Design sem nome (5).png" alt="Esse é o Luiz">
 
    </main>
    <footer class="Rodape">

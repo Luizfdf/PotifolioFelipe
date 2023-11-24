@@ -40,6 +40,7 @@ body {
     gap: 24px;
 }
 
+
 .cabecalho__menu__link{
 
     font-family: var(--fonte-secundaria);
@@ -178,15 +179,18 @@ font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 400;
-    }
- 
- .Rodape_logo_alura{
+    
+    
+}
+    
+.Rodape_logo_alura{
 
-    width: 129.3px;
-    height: 73.55px;
-    margin-top: 0.51px;
-    margin-right: 60%;
-
+    width: 130px;
+    height: 74px;
+    margin-top:0%;
+    margin-right:0%;
+    margin-left: 25%;
+    
  }
 
  @media (max-width:1200px){
